@@ -1,0 +1,55 @@
+.hero-bg{
+    background-image: url('../images/image-85.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+.about-sec{
+    background-color: #E5E5E5;
+}
+
+.line-hr{
+    width: 25%;
+}
+
+.hand-sec{
+    background-image: url('../images/hands-image.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center 0;
+}
+
+.hand-sec {
+    opacity: 2;
+    background-color: #17259FCC;
+}
+
+.c-section {
+    border-radius: 50%;
+    height: 150px;
+    width: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f5f5f8cc;
+}
+
+@media (max-width:768px) {
+    .team-mem, .items-mem, .line-hr{
+        justify-content: center;
+        text-align: center;
+    }
+
+    .items-mem {
+        padding: 20px 0;
+    }
+
+    .line-hr{
+        justify-content: center;
+        text-align: center;
+        padding-left: 0;
+        width: 100%;
+    }
+}
+
